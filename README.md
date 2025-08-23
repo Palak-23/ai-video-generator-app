@@ -20,7 +20,7 @@ https://ai-video-generator-app-lime.vercel.app/
 -   **Frontend:** HTML, CSS, Vanilla JavaScript
 -   **Backend:** Python (Flask)
 -   **AI Model:** Replicate API (`zeroscope-v2-xl`)
--   **Deployment:** Render
+-   **Deployment:** Vercel
 
 ---
 
