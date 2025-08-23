@@ -3,8 +3,7 @@
 A minimal web application that generates short videos from user-provided text prompts using the Replicate AI API. This project was built to demonstrate a full-stack, end-to-end AI application deployment.
 
 ## Live Application Link
-
-**(You will add the Render URL here after deployment)**
+https://ai-video-generator-app-lime.vercel.app/
 
 ---
 
@@ -31,5 +30,5 @@ To run this project on your local machine, follow these steps:
 
 **1. Clone the Repository**
 ```bash
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-cd your-repository-name
+git clone https://github.com/Palak-23/ai-video-generator-app.git
+
