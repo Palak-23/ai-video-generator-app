@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // --- API Call to our Flask Backend ---
-            const response = await fetch('http://127.0.0.1:5001/generate', {
+            // Change the absolute URL to a relative one
+            const response = await fetch('/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
