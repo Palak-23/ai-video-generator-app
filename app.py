@@ -12,9 +12,6 @@ from datetime import datetime, timedelta #new
 
 load_dotenv()
 
-# In-memory storage for jobs (you can later replace with database)
-video_jobs = {} #new
-
 # The static_folder argument tells Flask where to find CSS, JS, etc.
 app = Flask(__name__, static_folder='static')
 CORS(app)
@@ -32,6 +29,9 @@ else:
 
 # In-memory storage for conversation state (in production, use Redis or database)
 user_sessions = {}
+
+# In-memory storage for jobs (you can later replace with database)
+video_jobs = {} #new
 
 # === EXISTING ROUTES (UNCHANGED) ===
 
