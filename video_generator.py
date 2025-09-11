@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+client = replicate.Client(api_token=os.getenv("REPLICATE_API_TOKEN"))
+
 def generate_video(prompt: str, negative_prompt: str = None) -> str:
     """
     Generates a video using the fastest available model for minimal timeout risk.
@@ -15,7 +17,7 @@ def generate_video(prompt: str, negative_prompt: str = None) -> str:
     try:
         print("⚡ Trying LTX-Video (ultra-fast model)...")
         
-        output = replicate.run(
+        output = client.run(
             "fofr/ltx-video",  # Correct model reference
             input={
                 "prompt": prompt,
