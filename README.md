@@ -204,8 +204,6 @@ ai-video-generator-app/
 - Ensure Flask app is running on port 5001
 - Check if static files are in the correct directory
 
-### Debug Mode
-
 ## 📊 Performance
 
 - **Video Generation Time**: 1-2 minutes per video
